@@ -10,7 +10,8 @@ while (True):
 
     if guess==random :
          print("You Won")
-         print("You have tried",count,"times")
+         print("You have tried",count,"times to win \n"
+                "Final Score =", 100-count)
          break
     if guess > random :
         print("You Are Close")
